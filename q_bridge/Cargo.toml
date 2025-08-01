@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "gateway",
+    "buffer",
+    "transport", "common",
+]
+resolver = "2"

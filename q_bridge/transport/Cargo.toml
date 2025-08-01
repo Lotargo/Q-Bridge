@@ -1,0 +1,12 @@
+[package]
+name = "transport"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arrow = "55.0.0"
+arrow-flight = { version = "55.0.0", features = ["flight-sql-experimental"] }
+futures = "0.3"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+async-trait = "0.1"
+tonic = "0.12"
